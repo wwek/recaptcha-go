@@ -9,7 +9,9 @@ import (
 	"time"
 )
 
-const reCAPTCHALink = "https://www.google.com/recaptcha/api/siteverify"
+const reCAPTCHALink = "https://recaptcha.net/recaptcha/api/siteverify"
+
+//const reCAPTCHALink = "https://www.google.com/recaptcha/api/siteverify"
 
 // VERSION the recaptcha api version
 type VERSION int8
